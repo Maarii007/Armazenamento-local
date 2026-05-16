@@ -31,7 +31,7 @@ TMDB_KEY=sua_chave_aqui
 
 ### 1️⃣ Localmente (Web)
 
-```bash
+```bash6
 flutter run -d chrome
 ```
 
