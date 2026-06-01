@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-
+import 'package:flutter/material.dart';
 import 'package:example_application/main.dart';
 import 'package:example_application/models/filme_item.dart';
 
@@ -13,6 +13,9 @@ void main() {
             imageUrl: 'https://example.com/poster.jpg',
           ),
         ],
+        initialThemeMode: ThemeMode.dark,
+        initialBusca: '',        // <-- novo
+        initialOrdenacao: 'az', 
       ),
     );
 
